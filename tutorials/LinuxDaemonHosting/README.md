@@ -7,21 +7,21 @@ In this guide a linux daemon will be build and set up to an Amazon EC2 Ubuntu mi
 
 ##Prerequisities
 A coin has been created using our services. This means you must have the access to the source codes and the windows binary.
-![](coindetails.png)
+![](https://raw.github.com/coincreator/tutorials/master/tutorials/LinuxDaemonHosting/coindetails.png)
  
 .
 
 
 
 Create a new Ubuntu Server 12.04 32-bit micro instance. If you choose any other distribution, this guide may not work.
-![](chooseinstance.png)
+![](https://raw.github.com/coincreator/tutorials/master/tutorials/LinuxDaemonHosting/chooseinstance.png)
  
 .
 
 
 
 Open the P2P port of your coin from the "security groups". Port 22 should also be open by default so you can connect to your instance with SSH.
-![](openp2p.png)
+![](https://raw.github.com/coincreator/tutorials/master/tutorials/LinuxDaemonHosting/openp2p.png)
  
 .
 
@@ -30,7 +30,7 @@ Open the P2P port of your coin from the "security groups". Port 22 should also b
 
 Connect to the linux instance with SSH
 
-![](shellopen.png)
+![](https://raw.github.com/coincreator/tutorials/master/tutorials/LinuxDaemonHosting/shellopen.png)
  
 
 .
@@ -74,7 +74,7 @@ Let's check the p2p is open
 
 Add the public ip of your Amazon instance to the conf file the Windows wallet uses
 
-![](addnodeip.png)
+![](https://raw.github.com/coincreator/tutorials/master/tutorials/LinuxDaemonHosting/addnodeip.png)
  
 .
 
@@ -85,6 +85,6 @@ You can verify from the linux side that indeed someone has connected to your nod
 
     ./litecoind getinfo
 
-![](1connection.png)
+![](https://raw.github.com/coincreator/tutorials/master/tutorials/LinuxDaemonHosting/1connection.png)
 
 That's it!
