@@ -1,6 +1,6 @@
 #Compiling a linux-qt wallet (coincreator.net)
 
-In this guide a linux-qt wallet will be built from the sources. 64-bit Ubuntu 13.10 is used as the building environment. As the case is always with linux distributions: if you have any other environment this guide may not work. If you have some other distribution and this guide does not work it's probably of some failing dependecies. (--> google)
+In this guide a linux-qt wallet will be built from the sources. 64-bit Ubuntu 13.10 is used as the building environment. As the case is always with linux distributions: if you have any other environment this guide may not work. If you have some other distribution and this guide does not work it's probably of some failing dependencies. (--> google)
 
 A coin named BullshitCoin will be used as a demonstration purpose.
 
