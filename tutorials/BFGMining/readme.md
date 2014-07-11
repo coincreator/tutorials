@@ -21,6 +21,7 @@ Open the conf file of your wallet. Configure the parameters so that you are able
 `server` - tell the wallet to accept rpc connections
 
 So an example conf would look like this:
+
 ![](ExampleConf.png)
 
 After that start the wallet and check that you have a connection. We will also need a receival coin address for the connection parameters of the miner. Find or generate a new address from the "receive" tab of your wallet. 
